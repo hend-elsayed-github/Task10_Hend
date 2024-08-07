@@ -1,0 +1,165 @@
+@font-face {
+    font-family: LeagueSpartan-Regular;
+    src: url(../../assets/League_Spartan/static/LeagueSpartan-Regular.ttf);
+}
+
+
+.mainone{
+    font-family: LeagueSpartan-Regular;
+    width: 80%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius:0px 5px 5px 0px;
+    -webkit-border-radius:0px 5px 5px 0px;
+    -moz-border-radius:0px 5px 5px 0px;
+    -ms-border-radius:0px 5px 5px 0px;
+    -o-border-radius:0px 5px 5px 0px;
+    box-shadow: 0 6px 7px -3px rgba(191, 232, 229, 0.7);
+}
+
+.leftdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.rightdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+}
+
+.firstinfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 8PX;
+}
+
+.lastinfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5px;
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.joblogo{
+    width: 100%;
+    height: 100%;
+}
+
+.mybtn{
+    background-color: hsl(180, 31%, 95%);
+    border: none;
+    color:  hsl(180, 36%, 52%);
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+
+.new{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    padding: 3.5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 15px;
+}
+
+.featured{
+    background-color: black;
+    color: white;
+    padding: 3.5px;
+    font-size: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 15px;
+}
+
+.position{
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 1;
+}
+
+.company{
+    font-size: 12px;
+    font-weight: bolder;
+    color: hsl(180, 29%, 50%);
+}
+
+@media screen and (max-width: 580px){
+    .mainone{
+        width: 90%;
+        flex-direction: column;
+        position: relative;
+        height: 150px;
+        justify-content: space-around;
+        align-items: flex-start;
+
+    }
+
+    .logo{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 20px;
+        bottom: 130px;
+    }
+
+    .rightdiv{
+        border-top: 1px rgb(204, 201, 201) solid;
+        padding-top: 10px;
+        width: 98%;
+        justify-content:flex-start ;
+    }
+
+    .info{
+        row-gap: 6px;
+    }
+    
+}

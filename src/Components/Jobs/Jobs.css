@@ -1,0 +1,17 @@
+.jobscontainer{
+    width: 96%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+    background-color: hsl(180, 52%, 96%);
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 580px){
+    .jobscontainer{
+        row-gap: 23px;
+    }
+}
