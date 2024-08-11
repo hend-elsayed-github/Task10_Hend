@@ -1,14 +1,14 @@
 import './Jobs.css'
 import Onejob from '../Onejob/Onejob'
 // import { useState,useEffect } from 'react'
-import photosnap from "../../assets/images/photosnap.svg"
+// import photosnap from "../../assets/images/photosnap.svg"
 
 function Jobs(){
     const infoarray =[
       {
         id: 1,
         company: "Photosnap",
-        logo: photosnap,
+        logo: "./public/images/photosnap.svg",
         new: true,
         featured: true,
         position: "Senior Frontend Developer",
@@ -38,7 +38,7 @@ function Jobs(){
       {
         id: 3,
         company: "Account",
-        logo: "./src/assets/images/account.svg",
+        logo: "./public/images/account.svg",
         new: true,
         featured: false,
         position: "Junior Frontend Developer",
@@ -53,7 +53,7 @@ function Jobs(){
       {
         id: 4,
         company: "MyHome",
-        logo: "./src/assets/images/myhome.svg",
+        logo: "./public/images/myhome.svg",
         new: false,
         featured: false,
         position: "Junior Frontend Developer",
@@ -68,7 +68,7 @@ function Jobs(){
       {
         id: 5,
         company: "Loop Studios",
-        logo: "./src/assets/images/loop-studios.svg",
+        logo: "./public/images/loop-studios.svg",
         new: false,
         featured: false,
         position: "Software Engineer",
@@ -83,7 +83,7 @@ function Jobs(){
       {
         id: 6,
         company: "FaceIt",
-        logo: "./src/assets/images/faceit.svg",
+        logo: "./public/images/faceit.svg",
         new: false,
         featured: false,
         position: "Junior Backend Developer",
@@ -98,7 +98,7 @@ function Jobs(){
       {
         id: 7,
         company: "Shortly",
-        logo: "./src/assets/images/shortly.svg",
+        logo: "./public/images/shortly.svg",
         new: false,
         featured: false,
         position: "Junior Developer",
@@ -113,7 +113,7 @@ function Jobs(){
       {
         id: 8,
         company: "Insure",
-        logo: "./src/assets/images/insure.svg",
+        logo: "./public/images/insure.svg",
         new: false,
         featured: false,
         position: "Junior Frontend Developer",
@@ -128,7 +128,7 @@ function Jobs(){
       {
         id: 9,
         company: "Eyecam Co.",
-        logo: "./src/assets/images/eyecam-co.svg",
+        logo: "./public/images/eyecam-co.svg",
         new: false,
         featured: false,
         osition: "Full Stack Engineer",
@@ -143,7 +143,7 @@ function Jobs(){
       {
         id: 10,
         company: "The Air Filter Company",
-        logo: "./src/assets/images/the-air-filter-company.svg",
+        logo: "./public/images/the-air-filter-company.svg",
         new: false,
         featured: false,
         position: "Front-end Dev",
