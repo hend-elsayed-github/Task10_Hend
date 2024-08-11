@@ -1,13 +1,14 @@
 import './Jobs.css'
 import Onejob from '../Onejob/Onejob'
 // import { useState,useEffect } from 'react'
+import photosnap from "../../assets/images/photosnap.svg"
 
 function Jobs(){
     const infoarray =[
       {
         id: 1,
         company: "Photosnap",
-        logo: "./src/assets/images/photosnap.svg",
+        logo: photosnap,
         new: true,
         featured: true,
         position: "Senior Frontend Developer",
